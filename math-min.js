@@ -1,0 +1,1 @@
+var euler=Math.E,phi=Math.SQRT2,pi=Math.PI,tau=Math.TAU,sin=(a,t="rad")=>"deg"==t?Math.sin(a/tau*360):Math.sin(a),cos=(a,t="rad")=>"deg"==t?Math.cos(a/tau*360):Math.cos(a),random=(a,t,h)=>1==h?Math.floor(Math.random()*t+a):Math.random()*t+a;(a=>{["round","sqrt","abs","ceil","floor","min","max","cbrt","sinh","cosh","acos","asin","tan","tanh"].forEach(t=>{a[t]=Math[t]})})(this);
